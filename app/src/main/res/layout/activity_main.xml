@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Hello World!"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+
+    <EditText
+        android:id="@+id/nim"
+        android:layout_width="322dp"
+        android:layout_height="45dp"
+        android:hint="Masukan NIM"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.617"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.142" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="323dp"
+        android:layout_height="42dp"
+        android:hint="Masuakn Nama"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.613"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.207" />
+
+    <RadioGroup
+        android:id="@+id/jurusan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.19"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.291">
+
+        <RadioButton
+            android:id="@+id/ilkom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ilmu Komputer" />
+
+        <RadioButton
+            android:id="@+id/saindat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sains Data" />
+
+    </RadioGroup>
+
+    <CheckBox
+        android:id="@+id/kelasA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kelas IKRA"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.175"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.411" />
+
+    <CheckBox
+        android:id="@+id/kelasB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kelas IKRB"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.178"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.481" />
+
+    <EditText
+        android:id="@+id/ipk"
+        android:layout_width="322dp"
+        android:layout_height="45dp"
+        android:hint="Masukan IPK"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.606"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.549" />
+
+    <EditText
+        android:id="@+id/mk1"
+        android:layout_width="322dp"
+        android:layout_height="45dp"
+        android:hint="Nilai MK1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.606"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.615" />
+
+    <EditText
+        android:id="@+id/mk2"
+        android:layout_width="322dp"
+        android:layout_height="45dp"
+        android:hint="Nilai MK2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.606"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.68" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="310dp"
+        android:layout_height="45dp"
+        android:onClick="WithPutMain"
+        android:text="Kirim"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.653"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.788"
+        android:backgroundTint="#FF5F00"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
